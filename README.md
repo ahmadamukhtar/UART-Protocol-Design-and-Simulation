@@ -15,7 +15,7 @@ This project demonstrates the **design and simulation of the UART (Universal Asy
 To design and simulate a complete UART system that:
 - Transmits and receives data asynchronously
 - Uses a configurable baud rate generator
-- Demonstrates full functionality through waveform simulation and live data transmission
+
 
 ---
 
@@ -45,21 +45,6 @@ To design and simulate a complete UART system that:
 - Generates timing ticks for sampling
 - Ensures accurate bit timing for TX/RX
 
----
-
-## 🧪 Simulation Results
-
-### 📤 Transmitter Simulation
-- Validates correct framing of start/data/stop bits
-- Output serial line reflects expected waveform transitions
-
-### 📥 Receiver Simulation
-- Successfully detects start bit
-- Accurately reconstructs parallel data from serial input
-
-#### 📊 Screenshots
-- **Figure 1:** Transmitter Waveform (ModelSim)
-- **Figure 2:** Receiver Waveform (ModelSim)
 
 ---
 
@@ -96,11 +81,5 @@ The UART’s simplicity and lack of clock synchronization make it ideal for **lo
 - Xilinx Vivado and ModelSim user guides
 - Tera Term Serial Communication Manual
 
----
 
-## 🧠 Future Work
-
-- Add **parity checking**
-- Implement **baud rate selection register**
-- Extend to **UART with interrupt or FIFO buffers**
 
